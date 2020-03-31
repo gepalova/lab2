@@ -22,5 +22,9 @@ namespace lab2
         {
             return new Point(p1.x + p2.x, p1.y + p2.y);
         }
+        public Point OppositePoint()
+        {
+            return new Point((-1) * this.x, (-1) * this.y);
+        }
     }
 }
