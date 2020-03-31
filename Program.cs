@@ -11,6 +11,7 @@ namespace lab2
         static void Main()
         {
             Circle c = new Circle(10.10101, 15.15151, 5.54545);
+            Console.WriteLine("It is your circle");
             c.ShowCircle();
             Console.ReadKey();
         }
