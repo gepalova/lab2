@@ -17,5 +17,9 @@ namespace lab2
             this.y = y;
         }
         public double Length => Math.Sqrt(Math.Pow(this.x, 2) + Math.Pow(this.y, 2));
+        public Vector MoveVector(Point p)
+        {
+            return new Vector(this.x + p.x, this.y + p.y);
+        }
     }
 }
